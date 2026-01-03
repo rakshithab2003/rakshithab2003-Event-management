@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="event.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1>Events</h1>
+    <div class="container">
+        <img src="images/w4.jpg" alt="Event Image 1">
+        <img src="images/b3 (1).jpg" alt="Event Image 2">
+        <img src="images/bs4.jpg" alt="Event Image 3">
+        <img src="images/f1.jpg" alt="Event Image 4">
+        <img src="images/ce3.jpg" alt="Event Image 5">
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.container img');// is used to select all <img> tags inside elements with the class .container.
+        let index = 0;
+
+        function animateImages() {
+            // Expand the current image
+            images[index].style.width = '65%'; // Expand width to 65%
+            
+            // Wait for 2 seconds
+            setTimeout(() => {
+                images[index].style.width = '10%'; // Reset the width back to 10%
+                index = (index + 1) % images.length; // Move to the next image (loop back to first)
+                animateImages(); // Call function again for the next image
+            }, 3000); // Time the image stays at 65%
+        }
+
+        animateImages(); // Start the animation
+    </script>
+    <div class="card-container">
+    <div class="card">
+        <a href="#a">
+        <img src="images/w1.jpg" alt="card-image" class="card-image" >
+    </a>
+    <div class="card-content">
+<h2 class="Wedding">Wedding</h2>
+<p class="card-description">Wedding Planning is a dream of every individual who look forward for a lifetime experience & memories that last forever. We at FESTIVETOUCH  Events have a dedicated team of professionals who are well versed in providing best wedding planning services for a dream wedding to come true.</p>
+    </div>
+    </div>
+
+    <div class="card">
+        <a href="#b">
+        <img src="images/bs3.jpg" alt="card-image" class="card-image" >
+        </a>
+    <div class="card-content">
+<h2 class="Baby shower">Baby shower</h2>
+<p class="card-description">are priority is to organize a memorable baby shower to celebrate the upcoming arrival of their new baby. our goal is to create a joyful,stressfree event that reflects the clients vision. </p>
+    </div>
+    </div>
+
+    <div class="card">
+        <a href="#c">
+    <img src="images/b7.jpg" alt="card-image" class="card-image" >
+    </a>
+    <div class="card-content">
+<h2 class="Birthday Party">Birthday Party</h2>
+<p class="card-description">our mission is to create unforgetable,joyfull and engagging atmosphere filled with fun and cherished memories on your Birthday </p>
+</div>
+</div>
+
+<div class="card">
+    <a href="#d">
+<img src="images/f3.jpg" alt="card-image" class="card-image" >
+</a>
+ <div class="card-content">
+<h2 class="Festival">Festival</h2>
+<p class="card-description">our goal is to organize a vibrant,thrilled and engagging festival that brings the community together to enjoy.</p>
+</div>
+</div>
+
+<div class="card">
+    <a href="#e">
+<img src="images/ce1.jpg" alt="card-image" class="card-image" >
+</a>
+<div class="card-content">
+<h2 class="Corporate events">Corporate events</h2>
+<p class="card-description">our objective is to create a professional,engagging and memorable experience that aligns with your corporate values and goals.</p>
+</div>
+    </div>
+
+    </div>
+    <div class="wow">
+        <h3>Wedding</h3>
+        <div class="content" id="a">
+        
+        <p> FESTIVETOUCH  Events is a wedding planning company. We work towards making the dream wedding of all the couples a beautiful reality. We can organize events right from conception, going on to designing and executing them. We have a team of experienced and creative wedding planners at FESTIVETOUCH  Events & Planners know exactly what you are looking for and expecting and turn ideas into action. We will provide DJ/Music, Venue Booking, Decor, Photography Services, Invitations, Catering, and Gifts. We communicate with you throughout, with regular updates and reminders and we can be flexible for any last minute changes or additions.
+    
+            We can work on traditional, non-traditional, civil or diverse celebrations, as certified Wedding Planners. We will give you plenty of ideas until you settle on the perfect choice. To wipe off the responsibilities from your shoulders, the bunch of professionals will work hard in making you look fantastic for each wedding function. FESTIVETOUCH  Events strives to give you the best experience.We all know how distressing and exhausting the preparation for the upcoming wedding day can be. FESTIVETOUCH  Events can easily solve this problem by organizing everything for you and make your wedding unforgettable since our business is making memories. We create relaxed and unique atmosphere during the celebration, providing the first-class service and delivering extraordinary events. We offer a wide range of services such decorations , guest management , entertainment etc
+    
+            We also provide destination wedding which is perfect mix of the big day, a holiday, getting together, fun and series of emotional moments, sit back while we create the experience of a lifetime and deliver you a dream event with our precise coordination and extraordinary results. You may check out the profiles with all the necessary information in our list and contact us to arrange a meeting and start planning your big day.</p>
+            <img src="images/w17.jpg" alt="description of image" class="left-image">
+        </div>
+        <h3>Baby shower</h3>
+        <div class="content" id="b">
+        
+            <img src="images/bs10 (1).jpg" alt="description of image" class="left-image">
+            <p> We have experience planning and executing successful baby showers for our clients as one of the leading event management company . Our expert baby shower planners will handle every aspect for you, from the décor and menu to the baby shower games and gift tends to favours. They will handle all aspects of the organising process to ensure that your event is a major success for your friends and family. We will leave no stone unturned in creating a stress-free and memorable affair, taking into consideration all of your requirements. We will arrange the special day with a planned and hassle-free approach as your trusted baby shower party organiser. Are you freaking out with all of the logistics and consequences that come with planning a Bangle Ceremony? If so, we will organise this special event for you and ensure that each of your guests has a memorable experience. Get in contact with us right away if you want to make your baby shower an event to remember for years to come.</p>
+        </div>
+        <h3>Birthday</h3>
+        <div class="content" id="c">
+        
+        <p> A birthday party is an important factor that each of us will always remember in our memories, and every person will try to remember the early memory as it is his birthday celebration which is more important than other days, probably one of the most special day for family members and most importantly parents. Birthday celebrations are now a necessity in everyone's life, so the tendency to enjoy shocking moments has become very close to every person's heart. Everyone wants to celebrate their birthday happily to create beautiful and happy memories for a lifetime. People who live busy lives in big cities are often engaged in finding happy ways, and celebration is the perfect place for pleasure. FESTIVETOUCH  Events Planning and Decor is one of the top birthday event planners , organizing such a great birthday themed party.</p>
+            <img src="images/b5.jpg" alt="description of image" class="left-image">
+        </div>
+        <h3>Festival</h3>
+        <div class="content" id="d">
+        
+            <img src="images/f6.jpg" alt="description of image" class="left-image">
+            <p>FESTIVETOUCH  company, where we specialize in crafting unforgettable festival experiences! With a passion for bringing people together, our expert team meticulously plans every detail, from engaging performances to vibrant vendor selections. Whether it’s a music festival, food fair, or cultural celebration, we strive to create a lively atmosphere that captivates attendees and fosters community spirit. Join us as we transform ideas into extraordinary events that leave lasting memories. Explore our services and let’s make your next festival an unforgettable celebration! </p>
+    </div>
+    <h3>Corporate events</h3>
+    <div class="content" id="e">
+    <p>FESTIVETOUCH  Events Planner and Decor is capable of organizing an awards ceremony. As a creative events management company, we understand the specific aspects that will strongly promote your business and make an impression for all the right reasons. Plan your next award ceremony with our Award Ceremony Planner for FESTIVETOUCH  events . FESTIVETOUCH  Events Planner makes it fun and simple to organize award ceremonies that celebrate people's hard work and accomplishments. We are a group of planners who help you make sure your special day is everything you imagine. With years of experience in planning award ceremonies and red carpet events, we can assist you through the entire process. Our services include researching venues, organizing the production team, renting equipment, writing acceptance speeches and introductions, and many other miscellaneous services that may be required throughout your planning process. FESTIVETOUCH  Events will help you make it as amazing as you can imagine. Whatever it is you're planning, we can help. We'll find the best venue, organize the production team, and ensure that everything goes smoothly. We can help with everything from finding the perfect venue to writing an acceptance speech for your award winners. Whether you are planning a large-scale or intimate awards celebration, We help you to select your awards host. This could be the CEO of your company or a celebrity, comedian, or TV host.</p>
+        <img src="images/ce6.jpg" alt="description of image" class="left-image">
+        
+    </div>
+        </div>
+</body>
+</html>

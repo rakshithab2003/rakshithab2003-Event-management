@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+color: white;
+text-align: center;
+}
+h2{
+    font-weight: lighter;
+    
+}
+h3{
+    color: pink;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
